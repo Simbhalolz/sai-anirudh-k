@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samuel Naveen — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav-inner">
+    <div class="logo"><span>samuel<span class="dot">.</span>naveen</span></div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#education">education</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#certifications">certifications</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-grid"></div>
+  <div class="container hero-content">
+    <div class="hero-console">
+      <span class="prompt">samuel@portfolio</span>:~$ whoami<span class="cursor"></span>
+    </div>
+    <h1>Building systems<br>that keep <span class="accent">records straight.</span></h1>
+    <p class="lead">I'm Samuel Naveen, an Information Science student who likes turning messy, manual processes into clean, structured, database-backed systems.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View projects →</a>
+      <a href="mailto:samuel.naveen451@gmail.com" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">01 · About</div>
+        <h2>Who's behind the schema</h2>
+      </div>
+      <div class="section-index">about.md</div>
+    </div>
+    <div class="about-wrap">
+      <div class="about-text">
+        <p>I'm <strong>Samuel Naveen</strong>, currently pursuing a <strong>B.Tech in Information Science</strong>. I'm drawn to the layer of software that most people never see — the databases, the data models, the logic that decides what gets stored, updated, and retrieved.</p>
+        <p>My projects so far reflect that: a <strong>Student Management System</strong> and a <strong>Library Management System</strong>, both built to replace manual, paper-based tracking with something structured and searchable.</p>
+        <p>I work primarily in <strong>Python, Java, and C</strong>, and I'm always looking for the next real-world process worth modeling properly.</p>
+      </div>
+      <div class="about-side">
+        <div class="stat-card">
+          <span class="k">Focus</span>
+          <span class="v">Information Science &amp; Systems</span>
+        </div>
+        <div class="stat-card">
+          <span class="k">Core languages</span>
+          <span class="v">Python · Java · C</span>
+        </div>
+        <div class="stat-card">
+          <span class="k">Currently building</span>
+          <span class="v">Database-driven management systems</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">02 · Education</div>
+        <h2>Academic record</h2>
+      </div>
+      <div class="section-index">education.log</div>
+    </div>
+    <div class="log-entry">
+      <div class="log-time">In progress</div>
+      <div class="log-body">
+        <h3>B.Tech, Information Science</h3>
+        <p>[Your College Name] · Expected graduation: [Year]</p>
+        <span class="log-tag">edit these brackets with your details</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">03 · Skills</div>
+        <h2>What I build with</h2>
+      </div>
+      <div class="section-index">skills.json</div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="glyph">.py</span>
+        <h3>Python</h3>
+        <p>Application logic, scripting, and backend for both my management-system projects.</p>
+      </div>
+      <div class="skill-card">
+        <span class="glyph">.java</span>
+        <h3>Java</h3>
+        <p>Object-oriented programming, core data structures, and coursework projects.</p>
+      </div>
+      <div class="skill-card">
+        <span class="glyph">.c</span>
+        <h3>C</h3>
+        <p>Low-level fundamentals — memory, pointers, and how programs actually run.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">04 · Projects</div>
+        <h2>Systems I've shipped</h2>
+      </div>
+      <div class="section-index">projects.db</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-head"><span class="table-icon">▤</span>TABLE: student_management_system</div>
+      <div class="project-body">
+        <h3>Student Management System</h3>
+        <p class="desc">A system for storing, updating, and retrieving student records — built to replace manual, spreadsheet-based tracking with a structured, searchable database.</p>
+        <div class="field-row">
+          <span class="field-key">stack</span>
+          <span class="field-val"><span class="chip">Python</span></span>
+        </div>
+        <div class="field-row">
+          <span class="field-key">what it does</span>
+          <span class="field-val">Add, update, search, and delete student records through a simple interface.</span>
+        </div>
+        <div class="field-row">
+          <span class="field-key">links</span>
+          <span class="field-val"><a href="https://github.com/samuel-naveen451" target="_blank" rel="noopener">github.com/samuel-naveen451 →</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-head"><span class="table-icon">▤</span>TABLE: library_management_system</div>
+      <div class="project-body">
+        <h3>Library Management System</h3>
+        <p class="desc">A tool for tracking book inventory, issues, and returns — designed to keep a library's records accurate without manual logbooks.</p>
+        <div class="field-row">
+          <span class="field-key">stack</span>
+          <span class="field-val"><span class="chip">Python</span></span>
+        </div>
+        <div class="field-row">
+          <span class="field-key">what it does</span>
+          <span class="field-val">Catalog books, track availability, and manage issue/return records.</span>
+        </div>
+        <div class="field-row">
+          <span class="field-key">links</span>
+          <span class="field-val"><a href="https://github.com/samuel-naveen451" target="_blank" rel="noopener">github.com/samuel-naveen451 →</a></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="certifications">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">05 · Certifications</div>
+        <h2>Credentials</h2>
+      </div>
+      <div class="section-index">certs.log</div>
+    </div>
+    <div class="cert-empty">
+      <strong>No certifications added yet</strong>
+      Open index.html, find the "certifications" section, and add a card for each certificate — name, issuer, and year.
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="border-bottom:none;">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">06 · Contact</div>
+        <h2>Get in touch</h2>
+      </div>
+      <div class="section-index">contact.sh</div>
+    </div>
+    <div class="contact-wrap">
+      <h2>Have a project in mind, or just want to talk databases? Reach out.</h2>
+      <div class="contact-links">
+        <a href="mailto:samuel.naveen451@gmail.com"><span class="arrow">→</span> samuel.naveen451@gmail.com</a>
+        <a href="https://github.com/samuel-naveen451" target="_blank" rel="noopener"><span class="arrow">→</span> github.com/samuel-naveen451</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Samuel Naveen — built with HTML, CSS &amp; JS
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
